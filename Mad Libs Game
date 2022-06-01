@@ -1,0 +1,15 @@
+country = input("Enter a country: ")
+plural_noun = input("Enter a plural noun: ")
+verb = input("Enter a verb: ")
+first_direction = input("Enter a direction: ")
+second_direction = input("Enter another direction: ")
+
+
+print (f"Oh the grand old Duke of {country}")
+print (f"He had ten thousand {plural_noun}")
+print (f"He {verb} them up to the {first_direction} of the hill")
+print (f"And he {verb} them {second_direction} again")
+print (f"And when they were {first_direction}, they were {first_direction}")
+print (f"And when they were {second_direction}, they were {second_direction}")
+print (f"And when they were only half way {first_direction}")
+print (f"They were neither {first_direction} nor {second_direction}")
