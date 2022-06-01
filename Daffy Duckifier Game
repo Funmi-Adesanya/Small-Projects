@@ -1,0 +1,12 @@
+print "What would you like to Daffy Duckify?: "
+user_sentence = gets.chomp
+user_sentence.downcase!
+
+if user_sentence.include? "s" && "c"
+  user_sentence.gsub!(/s/, "th")
+  user_sentence.gsub!(/c/, "th")
+  user_sentence.capitalize!
+else puts "You have not entered any words to Daffy Duckify" 
+end  
+
+ puts "Your input says: #{user_sentence}"
